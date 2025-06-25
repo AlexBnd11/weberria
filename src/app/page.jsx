@@ -1,13 +1,25 @@
-import HeroSquare from "./hero-square";
-import OfferSquare from "./offer-square";
-import ProjectsSquare from "./projects-square";
+import HeroSquare from "./squares/hero-square";
+import OfferSquare from "./squares/offer-square";
+import ProjectsSquare from "./squares/projects-square"; 
+import AboutSquare from "./squares/about-square";
+import Marquee from "./marquee";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-9 grid-rows-5 h-full w-full gap-10">
+    <div className="grid grid-cols-12 grid-rows-5 h-full w-full gap-10">
       <HeroSquare />
       <OfferSquare />
       <ProjectsSquare />
+      <Image 
+        src="/weberria_logo_w_blanc.png" 
+        alt="logo" 
+        width={80} 
+        height={80} 
+        className="row-span-1 col-span-3 self-center justify-self-center"
+      />
+      <AboutSquare />
+      <Marquee />
     </div>
   );
 }

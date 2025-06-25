@@ -21,3 +21,22 @@ body {
   background: linear-gradient(135deg, #5a8dee 0%, #3b5998 100%);
   color: var(--foreground);
 }
+
+.marquee-container {
+  overflow: clip;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  min-width: 100%;
+  
+}
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-animation 25s linear infinite;
+}
+@keyframes marquee-animation {
+  to {
+    transform: translateX(-50%);
+  }
+}

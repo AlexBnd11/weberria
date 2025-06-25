@@ -10,8 +10,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${gabarito.className} antialiased w-screen h-screen flex items-center justify-center`}>
-        <main className="border border-white rounded-4xl w-[94%] h-[88%] p-10 m-10 flex flex-col">
+      <body className={`${gabarito.className} antialiased w-screen h-screen flex items-center justify-center tracking-wide`}>
+        <main className="border border-white rounded-4xl w-[94%] h-[88%] p-11 m-10 flex flex-col">
           <Header />
           <div className="flex-1">
             {children}

@@ -9,13 +9,13 @@ export default function Header() {
     const pathname = usePathname();
 
   return (
-    <header className="mt-5 mb-15">
+    <header className="mb-12">
       <div className="flex items-center justify-between">
         <Link href="/">
           <Image 
             src="/weberria_logo_long_blanc.png" 
             alt="logo" 
-            width={235} 
+            width={190} 
             height={40}
           />
         </Link>

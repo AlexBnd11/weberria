@@ -1,25 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #2d365e;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: linear-gradient(135deg, #5a8dee 0%, #3b5998 100%);
-  color: var(--foreground);
+  --text-primary: #040f1f;
+  --cta:var(--text-primary);
 }
 
 .marquee-container {
@@ -35,6 +18,14 @@ body {
   width: max-content;
   animation: marquee-animation 25s linear infinite;
 }
+
+.h1 {
+  font-weight: 600;
+  color: #040f1f;
+  line-height: 1.25;
+}
+
+
 @keyframes marquee-animation {
   to {
     transform: translateX(-50%);

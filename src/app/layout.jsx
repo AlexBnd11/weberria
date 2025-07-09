@@ -1,6 +1,7 @@
-import { gabarito } from "./fonts";
+import { inter } from "./fonts";
 import "./globals.css";
 import Header from "@/components/header";
+import "./hero-gradient.css";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${gabarito.className} antialiased w-screen h-screen flex items-center justify-center tracking-wide overflow-hidden`}>
-        <main className="border border-white rounded-4xl w-[94%] h-[88%] p-11 m-10 flex flex-col overflow-hidden">
+      <body className={`${inter.className} antialiased w-screen h-screen flex items-center justify-center hero-gradient`}>
+        <main className="border border-white rounded-4xl w-[94%] h-[88%] p-11 m-10 flex flex-col overflow-hidden backdrop-blur-sm">
           <Header />
           <div className="flex-1 overflow-hidden">
             {children}

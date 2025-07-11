@@ -27,17 +27,17 @@ const brands = [
 
 export default function Marquee() {
     return (
-    <div className="row-span-2 col-span-5 p-7 flex flex-col justify-between items-center rounded-4xl bg-white">
-        <h2 className="text-3xl font-semibold text-gray-800">Ils nous font confiance</h2>
+    <div className="row-span-2 col-span-5 p-7 flex flex-col justify-between items-center rounded-4xl bg-[var(--white-bg)]">
+        <h2 className="h2 text-3xl">Ils nous font confiance</h2>
         <div className="marquee-container mb-3">
             <div className="marquee">
             {brands.map((brand) => (
-                <a href={brand.website_link} key={brand.img_link}>
+                <a href={brand.website_link} key={brand.img_link} target="_blank" className="hover:scale-105 transition-all duration-250 py-1.5">
                 <img src={brand.img_link} alt={brand.name} className="h-15 w-auto mr-15" />
                 </a>
             ))}
             {brands.map((brand) => (
-                <a href={brand.website_link} key={brand.img_link + '-2'}>
+                <a href={brand.website_link} key={brand.img_link + '-2'} target="_blank" className="hover:scale-105 transition-all duration-250">
                 <img src={brand.img_link} alt={brand.name} className="h-15 w-auto mr-15" />
                 </a>
             ))}

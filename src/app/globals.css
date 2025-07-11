@@ -1,8 +1,49 @@
 @import "tailwindcss";
 
 :root {
-  --text-primary: #040f1f;
-  --cta:var(--text-primary);
+  --text-primary: #030d1d;
+  --white-bg: #f7f7ff;
+  --cta: #b1173d;
+}
+
+/* Custom scrollbar styles - Desktop only */
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Firefox scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+  }
+}
+
+/* Hide scrollbar on mobile/tablet */
+@media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
 }
 
 .marquee-container {
@@ -19,10 +60,45 @@
   animation: marquee-animation 25s linear infinite;
 }
 
-.h1 {
+h1 {
   font-weight: 600;
-  color: #040f1f;
+  color: var(--text-primary);
   line-height: 1.25;
+  font-family: var(--font-gabarito) !important;
+}
+
+.h2 {
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.25;
+  font-family: var(--font-gabarito);
+}
+
+.h2-projects {
+  font-weight: 400;
+  color: white;
+  line-height: 1.25;
+  font-family: var(--font-gabarito);
+}
+
+.h2-offer {
+  font-weight: 400;
+  color: white;
+  line-height: 1.25;
+  font-family: var(--font-gabarito);
+  letter-spacing: 0.01em;
+}
+
+.bg-offer {
+  background-color: hsla(224, 70%, 17%, 1);
+  background-image: radial-gradient(circle at 91% 91%, hsla(276, 72%, 4%, 0.46) 10%, transparent 57%), radial-gradient(circle at 90% 84%, hsla(197, 57%, 0%, 1) 17%, transparent 81%), radial-gradient(circle at 63% 76%, hsla(274, 90%, 2%, 1) 4%, transparent 63%), radial-gradient(circle at 64% 25%, hsla(271, 68%, 19%, 1) 10%, transparent 66%), radial-gradient(circle at 82% 4%, hsla(269, 82%, 4%, 1) 12%, transparent 73%), radial-gradient(circle at 75% 55%, hsla(222, 85%, 21%, 1) 13%, transparent 84%), radial-gradient(circle at 50% 4%, hsla(218, 79%, 9%, 1) 17%, transparent 60%), radial-gradient(circle at 13% 9%, hsla(276, 74%, 4%, 1) 10%, transparent 57%);
+  background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
+}
+
+.bg-about {
+  background-color: hsla(357, 100%, 50%, 1);
+  background-image: radial-gradient(circle at 0% 99%, hsla(41, 100%, 50%, 1) 0%, transparent 67%), radial-gradient(circle at 46% 94%, hsla(357, 100%, 50%, 1) 0%, transparent 81%), radial-gradient(circle at 93% 95%, hsla(266, 100%, 23%, 1) 0%, transparent 66%), radial-gradient(circle at 20%, hsla(236, 100%, 9%, 1) 0%, transparent 50%);
+  background-blend-mode: normal, normal, normal, normal;
 }
 
 

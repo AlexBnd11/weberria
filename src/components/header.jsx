@@ -8,9 +8,8 @@ export default function Header() {
     const pathname = usePathname();
 
     return (
-        <header className="mb-12">
-            <div className="flex items-center justify-between">
-                <Link href="/">
+        <header className="mb-13 mt-4 relative">
+                <Link href="/" className="absolute top-0 left-0">
                     <Image 
                         src="/weberria_logo_long_blanc.png" 
                         alt="logo" 
@@ -18,17 +17,11 @@ export default function Header() {
                         height={40}
                     />
                 </Link>
-                <ul className="flex items-center gap-15 font-inter">
-                    <li><Link href="/" className={`${pathname === "/" ? "text-white" : "text-gray-500"}`}>Accueil</Link></li>
-                    <li><Link href="/portfolio" className={pathname === "/portfolio" ? "text-white" : "text-gray-500"}>Nos projets</Link></li>
-                    <li><Link href="/agence-web-la-rochelle" className={pathname === "/agence-web-la-rochelle" ? "text-white" : "text-gray-500"}>À propos</Link></li>
+                <ul className="flex items-center gap-15 max-lg:gap-8 font-inter flex-1 justify-center max-lg:justify-end max-sm:hidden">
+                    <li><Link href="/" className={`${pathname === "/" ? "text-white font-semibold" : "text-gray-300"} max-lg:text-sm`}>Accueil</Link></li>
+                    <li><Link href="/portfolio" className={`${pathname === "/portfolio" ? "text-white font-semibold" : "text-gray-300"} max-lg:text-sm`}>Nos projets</Link></li>
+                    <li><Link href="/agence-web-la-rochelle" className={`${pathname === "/agence-web-la-rochelle" ? "text-white font-semibold" : "text-gray-300"} max-lg:text-sm`}>À propos</Link></li>
                 </ul>
-                <div className="flex items-center gap-4">
-                    <a href="/contact" className="bg-white text-black px-5 py-3 rounded-full">
-                        Contactez-nous
-                    </a>
-                </div>
-            </div>
         </header>
     );
 }

@@ -1,7 +1,8 @@
-import { inter } from "./fonts";
+import { inter, gabarito } from "./fonts";
 import "./globals.css";
-import Header from "@/components/header";
 import "./hero-gradient.css";
+import "./hero-button.css";
+import Header from "@/components/header";
 
 export const metadata = {
   title: "Create Next App",
@@ -11,10 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${inter.className} antialiased w-screen h-screen flex items-center justify-center hero-gradient`}>
+      <body className={`${inter.className} ${gabarito.variable} antialiased w-screen h-screen flex items-center justify-center hero-gradient`}>
         <main className="border border-white rounded-4xl w-[94%] h-[88%] p-11 m-10 flex flex-col overflow-hidden backdrop-blur-sm">
           <Header />
-          <div className="flex-1 overflow-hidden">
+          <div className="flex-1 overflow-y-auto">
             {children}
           </div>
         </main>

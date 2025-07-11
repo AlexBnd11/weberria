@@ -13,7 +13,7 @@ const config = {
       },
       gap: {
         '15': '3.75rem',
-      }
+      },
     },
   },
   plugins: [],

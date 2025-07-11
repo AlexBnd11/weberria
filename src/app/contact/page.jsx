@@ -9,8 +9,8 @@ export default function Contact() {
                     <div className="flex flex-col h-full gap-10 pb-10 justify-center relative text-white">
                         <div className={`flex flex-col`}>
                             <p className={`${gabarito.className} tracking-wide text-lg font-semibold`}>Notre engagement</p>
-                            <p className="font-light text-sm mt-0.5">Sans engagement pour tous vos projets web</p>
-                            <a href="tel:+33613075346" className="text-sm font-bold mt-2">Devis gratuit</a>
+                            <p className="font-light text-sm mt-0.5">Pour tous vos projets web & communication</p>
+                            <p className="text-sm font-bold mt-2">Devis gratuit</p>
                         </div>
                         <div className="flex flex-col">
                             <p className={`${gabarito.className} tracking-wide text-lg font-semibold`}>Une question ? </p>
@@ -27,7 +27,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className="w-2/3 bg-white rounded-[50px] flex flex-col justify-between items-center shadow-lg transform scale-[104%] z-10 -mr-6 p-15">
+                <div className="w-2/3 bg-white rounded-[50px] flex flex-col justify-between items-center shadow-lg transform scale-[104%] mr-[7px] z-10 p-15">
                     <div className="flex flex-col gap-3">
                         <h1 className={`${gabarito.className} h1 text-4xl text-balance`}>Envie de renforcer votre présence en ligne ? Faisons équipe.</h1>
                         <p className="text-[14px] text-gray-900">Quelques mots sur vous, votre projet et vos objectifs ?</p>
@@ -56,7 +56,7 @@ export default function Contact() {
                         </div>
                         <button
                             type="submit"
-                            className={`${gabarito.className} tracking-wide mt-8 w-full bg-blue-950 text-white py-2.5 rounded-full text-lg cursor-pointer`}
+                            className="hero-button mt-6"
                         >
                             Envoyer
                         </button>

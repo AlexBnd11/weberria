@@ -2,7 +2,7 @@ import HeroSquare from "./squares/hero-square";
 import OfferSquare from "./squares/offer-square";
 import ProjectsSquare from "./squares/projects-square"; 
 import AboutSquare from "./squares/about-square";
-import Marquee from "./marquee";
+import Marquee from "./squares/marquee";
 import Image from "next/image";
 
 export default function Home() {

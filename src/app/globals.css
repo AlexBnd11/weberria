@@ -46,6 +46,16 @@
   }
 }
 
+/* Hide scrollbar on homepage */
+.homepage #main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.homepage #main-content {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 .marquee-container {
   overflow: clip;
   width: 100%;

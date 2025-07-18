@@ -1,9 +1,9 @@
 import NextImage from "next/image";
 import Link from "next/link";
 
-export default function ProjectsSquare() {
+export default function ProjectsSquare({ className = "" }) {
   return (
-    <div className="flex flex-col justify-between p-7 row-span-5 col-span-4 border border-white rounded-4xl">
+    <div className={`flex flex-col justify-between p-7 row-span-5 col-span-4 border border-white rounded-4xl ${className}`}>
       <h2 className="h2-projects text-2xl">Nos dernières réalisations</h2>
 
       <div className="flex flex-col gap-10 w-full">

@@ -13,7 +13,7 @@ const brands = [
   },
   {
     img_link: "/brands/hortza.png",
-    website_link: "https://www.hortza.fr/",
+    website_link: "#",
   },
   {
     img_link: "/brands/jade-olleac.png",
@@ -25,9 +25,9 @@ const brands = [
   },
 ];
 
-export default function Marquee() {
+export default function Marquee({ className = "" }) {
     return (
-    <div className="row-span-2 col-span-5 p-7 flex flex-col justify-between items-center rounded-4xl bg-[var(--white-bg)]">
+    <div className={`row-span-2 col-span-5 p-7 flex flex-col justify-between items-center rounded-4xl bg-[var(--white-bg)] ${className}`}>
         <h2 className="h2 text-3xl">Ils nous font confiance</h2>
         <div className="marquee-container mb-3">
             <div className="marquee">

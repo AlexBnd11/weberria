@@ -4,10 +4,11 @@ import ProjectsSquare from "./squares/projects-square";
 import AboutSquare from "./squares/about-square";
 import Marquee from "./squares/marquee";
 import Image from "next/image";
+import ClientHomeGrid from "./components/ClientHomeGrid";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-12 grid-rows-5 h-full w-full gap-10">
+    <ClientHomeGrid>
       <HeroSquare />
       <OfferSquare />
       <ProjectsSquare />
@@ -20,6 +21,6 @@ export default function Home() {
       />
       <AboutSquare />
       <Marquee />
-    </div>
+    </ClientHomeGrid>
   );
 }

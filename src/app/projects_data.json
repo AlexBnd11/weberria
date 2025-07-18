@@ -3,42 +3,42 @@
         "name": "Mille et une Notes",
         "cover": "1001_home.png",
         "link": "https://www.milleetunenotes.com/",
-        "screenshots": ["1001-screenshot1.JPG", "1001-screenshot2.JPG"],
+        "screenshots": "1001_screenshots.png",
         "decription": "1001 Notes est un projet de site web pour une entreprise de notes. Il permet de créer, modifier et supprimer des notes."
     },
     {
         "name": "Alpine La Rochelle",
         "cover": "alpine_home.png",
         "link": "https://alpine-larochelle.com",
-        "screenshots": ["alpine-screenshot1.JPG", "alpine-screenshot2.JPG"],
+        "screenshots": "alpine_screenshots.png",
         "decription": "Le centre Alpine de La Rochelle m'a contacté pour effectuer une refonte de leur site. L'idée était de refaire un design attractif et plusieurs fonctionnalités."
     },
     {
         "name": "Jade Olléac",
         "cover": "jade_home.png",
         "link": "https://jadeolleac-psychologue.fr/",
-        "screenshots": ["jade-screenshot1.PNG"],
+        "screenshots": "jade_screenshots.png",
         "decription": "Ma première réalisation pour un client. Cette première création est un site vitrine avec des informations et un formulaire pour une psychologue clinicienne rochelaise."
     },
     {
         "name": "Groupe Michel",
         "cover": "gm_home.png",
         "link": "https://www.groupemichel.com/",
-        "screenshots": ["gm-screenshot1.JPG", "gm-screenshot2.JPG"],
+        "screenshots": "gm_screenshots.png",
         "decription": ""
     },
     {
         "name": "Cabinet Hortza",
         "cover": "hortza_home.png",
         "link": "",
-        "screenshots": ["hortza-screenshot1.JPG", "hortza-screenshot2.JPG"],
+        "screenshots": "hortza_screenshots.png",
         "decription": "Site pour un cabinet dentaire. En cours de réalisation"
     },
     {
         "name": "Alex Bonniard",
         "cover": "alex_home.png",
         "link": "https://alexbonniard.dev/",
-        "screenshots": ["portfolio-screenshot1.JPG", "portfolio-screenshot2.JPG"],
+        "screenshots": "alex_screenshots.png",
         "decription": "Site pour un développeur web."
     }
 ]

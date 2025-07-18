@@ -1,26 +1,27 @@
 import { gabarito } from "@/app/fonts";
 import NextImage from "next/image";
+import Animation from "./components/Animation";
 
 export default function Contact() {
     return (
-        <div className="w-full h-full flex justify-center items-center">
+        <Animation className="w-full h-full flex justify-center items-center">
             <div className="flex max-w-6xl w-full h-[96%] mr-2 border-l border-t border-b border-white rounded-[50px] relative">
                 <div className="w-1/3 flex items-center z-0 pl-10">
                     <div className="flex flex-col h-full gap-10 pb-10 justify-center relative text-white">
                         <div className={`flex flex-col`}>
                             <p className={`${gabarito.className} tracking-wide text-lg font-semibold`}>Notre engagement</p>
-                            <p className="font-light text-sm mt-0.5">Pour tous vos projets web & communication</p>
-                            <p className="text-sm font-bold mt-2">Devis gratuit</p>
+                            <p className="font-light text-sm">Pour tous vos projets web & communication</p>
+                            <p className="text-sm font-bold mt-3">Devis gratuit</p>
                         </div>
                         <div className="flex flex-col">
                             <p className={`${gabarito.className} tracking-wide text-lg font-semibold`}>Une question ? </p>
-                            <p className="font-light text-sm mt-0.5">Nous sommes à votre écoute.</p>
-                            <a href="mailto:contact@weberria.fr" className="text-sm font-bold mt-2">contact@weberria.fr</a>
+                            <p className="font-light text-sm">Nous sommes à votre écoute.</p>
+                            <a href="mailto:contact@weberria.fr" className="text-sm font-bold mt-3">contact@weberria.fr</a>
                         </div>
                         <div className={`flex flex-col`}>
                             <p className={`${gabarito.className} tracking-wide text-lg font-semibold`}>Notre téléphone</p>
-                            <p className="font-light text-sm mt-0.5">Du lundi au vendredi de 9h à 18h</p>
-                            <a href="tel:+33613075346" className="text-sm font-bold mt-2">+33 6 13 07 53 46</a>
+                            <p className="font-light text-sm">Du lundi au vendredi de 9h à 18h</p>
+                            <a href="tel:+33613075346" className="text-sm font-bold mt-3">+33 6 13 07 53 46</a>
                         </div>
                         <div className="absolute bottom-10 left-0">
                             <NextImage src="/linkedin_logo.svg" alt="LinkedIn" width={32} height={32} />
@@ -63,6 +64,6 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-        </div>
+        </Animation>
     );
 }

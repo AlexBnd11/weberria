@@ -52,10 +52,8 @@ export default function NosServices() {
             </div>
           </div>
         </div>
-        <a href="/contact" className="text-white text-center w-full">
-        <div className="bg-about rounded-4xl p-3 gap-5 text-center mt-2 hover:translate-y-[-3px] transition-all duration-250">
+        <a href="/contact" className="text-white text-center w-full bg-[var(--cta)] rounded-2xl p-3 hover:translate-y-[-3px] transition-all duration-250">
             Nous contacter
-        </div>
         </a>
       </section>
     )

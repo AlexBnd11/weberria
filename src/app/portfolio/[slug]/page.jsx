@@ -2,6 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import projects_data from "../../projects_data.json";
 
+export async function generateStaticParams() {
+  return projects_data.map((p) => ({
+    slug: p.name
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // Remove accents
+      .replace(/\s+/g, '-')
+  }));
+}
+
 export default function ProjectPage({ params }) {
   const { slug } = params;
   
@@ -56,6 +66,7 @@ export default function ProjectPage({ params }) {
               alt={`Screenshot de ${project.name}`} 
               fill 
               className="object-cover rounded-3xl"
+              unoptimized
             />
           </div>
         </div>

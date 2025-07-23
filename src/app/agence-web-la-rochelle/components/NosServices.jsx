@@ -13,6 +13,7 @@ export default function NosServices() {
             width={100} 
             height={100}
             className="p-3"
+            unoptimized
             />
             <div className="flex flex-col gap-3">
               <h3 className={`${gabarito.className} text-xl font-semibold`}>Conception de sites sur mesure</h3>
@@ -26,6 +27,7 @@ export default function NosServices() {
             width={100} 
             height={100}
             className="p-3"
+            unoptimized
             />
             <div className="flex flex-col gap-3">
               <h3 className={`${gabarito.className} text-xl font-semibold`}>Identité visuelle</h3>
@@ -39,6 +41,7 @@ export default function NosServices() {
             width={100} 
             height={100} 
             className="p-3"
+            unoptimized
             />
             <div className="flex flex-col gap-3">
               <h3 className={`${gabarito.className} text-xl font-semibold`}>Marketing numérique</h3>

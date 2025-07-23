@@ -18,6 +18,7 @@ export default function Home() {
         width={80} 
         height={80} 
         className="row-span-1 col-span-3 self-center justify-self-center"
+        unoptimized
       />
       <AboutSquare />
       <Marquee />

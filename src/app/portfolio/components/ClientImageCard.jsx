@@ -25,6 +25,7 @@ export default function ClientImageCard({ project }) {
           fill 
           className="rounded-3xl object-cover transition-all duration-300 group-hover:brightness-40 brightness-98" 
           onLoad={() => setImageLoaded(true)}
+          unoptimized
         />
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
           <h2 className="text-white text-xl font-semibold text-center">{project.name}</h2>

@@ -149,7 +149,7 @@ export default function NosTarifs() {
               <td className="p-4 max-[375px]:p-3 max-md:hidden">Stratégies et outils pour gérer les réseaux sociaux d'une entreprise : planification de contenu, engagement, analyse des performances (demi-journée)</td>
             </tr>
           </tbody>
-        </table>
+      </table>
       </div>
     </section>
   );

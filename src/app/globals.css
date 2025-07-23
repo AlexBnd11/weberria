@@ -111,6 +111,13 @@ h1 {
   background-blend-mode: normal, normal, normal, normal;
 }
 
+/* Masque l'élément si la hauteur de l'écran est < 800px entre md et 2xl */
+@media (min-width: 768px) and (max-height: 800px) {
+  .hide-on-short {
+    display: none !important;
+  }
+}
+
 
 @keyframes marquee-animation {
   to {

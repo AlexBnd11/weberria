@@ -28,8 +28,8 @@ const brands = [
 export default function Marquee({ className = "" }) {
     return (
     <div className={`row-span-2 col-span-5 p-7 flex flex-col justify-between items-center rounded-4xl bg-[var(--white-bg)] ${className}`}>
-        <h2 className="h2 text-3xl">Ils nous font confiance</h2>
-        <div className="marquee-container mb-3">
+        <h2 className="h2 text-3xl hide-on-short max-md:mb-6">Ils nous font confiance</h2>
+        <div className="marquee-container">
             <div className="marquee">
             {brands.map((brand) => (
                 <a href={brand.website_link} key={brand.img_link} target="_blank" className="hover:scale-105 transition-all duration-250 py-1.5">

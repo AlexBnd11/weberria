@@ -6,7 +6,7 @@ export default function HeroSquare({ className = "" }) {
     max-sm:px-6 max-sm:py-6
     `}>
       <h1 className="text-[3vw] max-lg:text-3xl font-gabarito">Votre Agence Web à La Rochelle</h1>
-      <p className="text-md text-slate-800 w-[70%] pb-4 
+      <p className="text-md text-slate-800 w-[70%] pb-4 hide-on-short
       max-lg:w-full max-lg:text-sm
       max-md:text-sm max-md:pb-6 max-md:pt-2
       ">Nous vous accompagnons pour tous vos projets web et digitaux. Renforcez votre présence en ligne.</p>

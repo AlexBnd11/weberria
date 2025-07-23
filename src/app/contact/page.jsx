@@ -5,7 +5,7 @@ import ContactFormClient from "./ContactFormClient";
 
 export default function Contact() {
     return (
-        <Animation className="w-full h-full flex justify-center items-center
+        <Animation className="w-full h-full min-h-[75vh] flex justify-center items-center
         max-md:h-auto max-md:pt-5
         ">
             <div className="flex max-w-6xl w-full h-[96%] mr-2 border-l border-t border-b border-white rounded-[50px] relative
@@ -39,7 +39,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className="w-2/3 bg-white rounded-[50px] flex flex-col justify-between items-center shadow-lg transform scale-[104%] mr-[7px] z-10 p-14
+                <div className="w-2/3 bg-white rounded-[50px] flex flex-col justify-between items-center shadow-lg transform scale-[104%] mr-[7px] z-10 p-12
                 max-md:w-full max-md:scale-100
                 max-lg:p-9
                 ">

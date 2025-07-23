@@ -8,8 +8,7 @@ export default function ProjectsSquare({ className = "" }) {
       max-xl:text-xl
       ">Nos dernières réalisations</h2>
 
-      <div className="flex flex-col gap-5 w-full my-5
-        ">
+      <div className="flex flex-col gap-5 w-full my-5 max-h-80 overflow-auto">
         <div className="flex-1 flex justify-center w-full items-center min-h-[180px]">
           <Link href="/portfolio/milleetunenotes" className="relative w-full max-w-[270px] aspect-[16/10] group overflow-hidden rounded-3xl transition-all duration-250">
             <NextImage 

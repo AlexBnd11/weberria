@@ -2,7 +2,7 @@ export default function NosTarifs() {
   return (
     <section className="mt-20">
       <h2 className="h2-offer text-3xl font-bold text-center mb-8">Tarifs de l'agence Weberria</h2>
-      <p className="text-center text-white/80 mb-8 max-md:text-sm">
+      <p className="text-center text-white/80 mb-8 max-md:text-sm px-4">
       Découvrez nos tarifs de façon transparente, conçus pour s'adapter à chaque budget sans compromis sur la qualité. Nous proposons une tarification mensuelle pour vous offrir une maîtrise budgétaire simplifiée et une adaptabilité constante de nos services à vos besoins évolutifs.
       </p>
       <div className="rounded-2xl bg-white/10">

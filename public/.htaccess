@@ -1,0 +1,8 @@
+# Si le dossier n'existe pas, mais un fichier .html du même nom existe, le servir
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Pour forcer l'affichage d'index.html dans les dossiers
+DirectoryIndex index.html

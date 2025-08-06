@@ -6,7 +6,7 @@ import ContactFormClient from "./ContactFormClient";
 export default function Contact() {
     return (
         <Animation className="w-full h-full max-h-[75vh] flex justify-center items-center
-        max-md:h-auto max-md:pt-5
+        max-md:max-h-max max-md:pt-5 max-md:h-auto
         ">
             <div className="flex max-w-6xl w-full h-[96%] mr-2 border-l border-t border-b border-white rounded-[50px] relative
             max-md:flex-col-reverse max-md:h-auto max-md:border-none max-md:mr-0

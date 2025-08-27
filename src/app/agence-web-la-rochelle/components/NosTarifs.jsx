@@ -76,7 +76,7 @@ export default function NosTarifs() {
             <tr>
               <td className="p-4 max-[375px]:p-3">Optimisation Référencement Local</td>
               <td className="p-4 max-[375px]:p-3"></td>
-              <td className="p-4 max-[375px]:p-3">60 €/mois</td>
+              <td className="p-4 max-[375px]:p-3">30-150 €/mois</td>
               <td className="p-4 max-[375px]:p-3 max-md:hidden">Gestion et optimisation de votre fiche Google My Business, suivi des avis, stratégie de mots-clés locaux. Essentiel pour les entreprises de La Rochelle et Charente-Maritime.</td>
             </tr>
             <tr>

@@ -1,5 +1,14 @@
-import projects_data from "../projects_data.json";
 import ClientImageCard from "./components/ClientImageCard";
+import projects_data from "../projects_data.json";
+
+export const metadata = {
+  title: "Portfolio - Nos Réalisations Web | Weberria La Rochelle",
+  description: "Découvrez nos réalisations web : sites vitrines, e-commerce, applications. Portfolio de l'agence Weberria à La Rochelle - Projets sur-mesure et résultats concrets.",
+  openGraph: {
+    title: "Portfolio - Nos Réalisations Web | Weberria La Rochelle",
+    description: "Découvrez nos réalisations web : sites vitrines, e-commerce, applications. Portfolio de l'agence Weberria à La Rochelle.",
+  },
+};
 
 export default function Portfolio() {
   return (

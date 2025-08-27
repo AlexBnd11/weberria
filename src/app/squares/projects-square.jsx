@@ -12,8 +12,8 @@ export default function ProjectsSquare({ className = "" }) {
         <div className="flex-1 flex justify-center w-full items-center min-h-[180px]">
           <Link href="/portfolio/milleetunenotes" className="relative w-full max-w-[270px] aspect-[16/10] group overflow-hidden rounded-3xl transition-all duration-250">
             <NextImage 
-              src="/portfolio/1001_home.png" 
-              alt="Project 1" 
+              src="/portfolio/1001_home.webp" 
+              alt="Aperçu du site Mille et une Notes - École de musique" 
               fill 
               className="rounded-3xl object-cover transition-all duration-300 group-hover:brightness-40" 
               unoptimized
@@ -27,8 +27,8 @@ export default function ProjectsSquare({ className = "" }) {
         <div className="flex-1 flex justify-center items-center min-h-[180px]">
           <Link href="/portfolio/alpine" className="relative w-full max-w-[270px] aspect-[16/10] group overflow-hidden rounded-3xl">
             <NextImage 
-              src="/portfolio/alpine_home.png" 
-              alt="Project 2" 
+              src="/portfolio/alpine_home.webp" 
+              alt="Aperçu du site Alpine La Rochelle - Centre de formation" 
               fill 
               className="rounded-3xl object-cover transition-all duration-300 group-hover:brightness-40" 
               unoptimized

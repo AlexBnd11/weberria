@@ -7,6 +7,25 @@ import Header from "./components/Header";
 export const metadata = {
   title: "Agence Web à La Rochelle | Weberria",
   description: "Weberria, agence web à La Rochelle, aide les entreprises à trouver des clients en ligne. Sites performants, stratégies digitales sur-mesure, accompagnement personnalisé et tarifs adaptés pour développer votre visibilité web.",
+  keywords: "agence web, La Rochelle, création site web, référencement, marketing digital, design web, développement web",
+  authors: [{ name: "Weberria" }],
+  creator: "Weberria",
+  publisher: "Weberria",
+  robots: "index, follow",
+  openGraph: {
+    title: "Agence Web à La Rochelle | Weberria",
+    description: "Weberria, agence web à La Rochelle, aide les entreprises à trouver des clients en ligne. Sites performants, stratégies digitales sur-mesure.",
+    type: "website",
+    locale: "fr_FR",
+    siteName: "Weberria",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Agence Web à La Rochelle | Weberria",
+    description: "Weberria, agence web à La Rochelle, aide les entreprises à trouver des clients en ligne.",
+  },
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#b1173d",
 };
 
 export default function RootLayout({ children }) {

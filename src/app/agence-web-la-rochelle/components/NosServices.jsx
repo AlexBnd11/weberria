@@ -9,7 +9,7 @@ export default function NosServices() {
           <div className="bg-white rounded-4xl p-5 flex gap-5 items-center max-lg:flex-col max-lg:p-8">
             <NextImage 
             src="/about_logos/conception_logo.svg" 
-            alt="Conception de sites sur mesure" 
+            alt="Icône conception web - Sites sur mesure personnalisés" 
             width={100} 
             height={100}
             className="p-3"
@@ -23,7 +23,7 @@ export default function NosServices() {
           <div className="bg-white rounded-4xl p-5 flex gap-5 items-center max-lg:flex-col max-lg:p-8">
             <NextImage 
             src="/about_logos/identite_logo.svg" 
-            alt="Identité visuelle" 
+            alt="Icône identité visuelle - Logo et charte graphique" 
             width={100} 
             height={100}
             className="p-3"
@@ -37,7 +37,7 @@ export default function NosServices() {
           <div className="bg-white rounded-4xl p-5 flex gap-5 items-center max-lg:flex-col max-lg:p-8">
             <NextImage 
             src="/about_logos/marketing_logo.svg" 
-            alt="Marketing numérique" 
+            alt="Icône marketing digital - SEO, réseaux sociaux et emailing" 
             width={100} 
             height={100} 
             className="p-3"

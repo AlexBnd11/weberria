@@ -1,44 +1,44 @@
 [
     {
         "name": "Mille et une Notes",
-        "cover": "1001_home.png",
+        "cover": "1001_home.webp",
         "link": "https://www.milleetunenotes.com/",
-        "screenshots": "1001_screenshots.png",
-        "decription": "Mille et une Notes est une école de musique."
+        "screenshots": "1001_screenshot.webp",
+        "decription": "Mille et une Notes est une école de musique située à Puilboreau à La Rochelle. Leur site avait besoin d'une refonte visuelle et ergonomique."
     },
     {
         "name": "Alpine La Rochelle",
-        "cover": "alpine_home.png",
+        "cover": "alpine_home.webp",
         "link": "https://alpine-larochelle.com",
-        "screenshots": "alpine_screenshots.png",
+        "screenshots": "alpine_screenshot.webp",
         "decription": "Le centre Alpine de La Rochelle m'a contacté pour effectuer une refonte de leur site. L'idée était de refaire un design attractif et plusieurs fonctionnalités."
     },
     {
         "name": "Jade Olléac",
-        "cover": "jade_home.png",
+        "cover": "jade_home.webp",
         "link": "https://jadeolleac-psychologue.fr/",
-        "screenshots": "jade_screenshots.png",
-        "decription": "Ma première réalisation pour un client. Cette première création est un site vitrine avec des informations et un formulaire pour une psychologue clinicienne rochelaise."
+        "screenshots": "jade_screenshot.webp",
+        "decription": "Notre première réalisation pour un client. Cette première création est un site vitrine avec des informations et un formulaire pour une psychologue clinicienne rochelaise."
     },
     {
         "name": "Groupe Michel",
-        "cover": "gm_home.png",
+        "cover": "gm_home.webp",
         "link": "https://www.groupemichel.com/",
-        "screenshots": "gm_screenshots.png",
-        "decription": ""
+        "screenshots": "groupemichel_screenshot.webp",
+        "decription": "Notre plus gros projet à ce jour. "
     },
     {
         "name": "Cabinet Hortza",
-        "cover": "hortza_home.png",
+        "cover": "hortza_home.webp",
         "link": "",
-        "screenshots": "hortza_screenshots.png",
-        "decription": "Site pour un cabinet dentaire. En cours de réalisation"
+        "screenshots": "hortza_screenshot.webp",
+        "decription": "Site vitrine pour un cabinet dentaire avec système de réservation en ligne. En cours de réalisation"
     },
     {
         "name": "Alex Bonniard",
-        "cover": "alex_home.png",
+        "cover": "alex_home.webp",
         "link": "https://alexbonniard.dev/",
-        "screenshots": "alex_screenshots.png",
-        "decription": "Site pour un développeur web."
+        "screenshots": "alex_screenshot.webp",
+        "decription": "Portfolio de notre développeur web Alex Bonniard. Destiné à montrer ses compétences et ses projets."
     }
 ]

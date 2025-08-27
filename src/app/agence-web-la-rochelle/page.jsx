@@ -5,6 +5,15 @@ import NosEngagements from "./components/NosEngagements";
 import NosServices from "./components/NosServices";
 import NosTarifs from "./components/NosTarifs";
 
+export const metadata = {
+  title: "Accompagnement Web Sur-Mesure | Weberria Agence La Rochelle",
+  description: "Weberria accompagne votre entreprise dans sa transformation digitale. Services web personnalisés : conception, identité visuelle, marketing digital. Agence La Rochelle.",
+  openGraph: {
+    title: "Accompagnement Web Sur-Mesure | Weberria Agence La Rochelle",
+    description: "Weberria accompagne votre entreprise dans sa transformation digitale. Services web personnalisés.",
+  },
+};
+
 export default function AgenceWebLaRochelle() {
   return (
     <>

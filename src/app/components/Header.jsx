@@ -13,7 +13,7 @@ export default function Header() {
                 <Link href="/" className="absolute top-0 left-0">
                     <Image 
                         src="/weberria_logo_long_blanc.png" 
-                        alt="logo" 
+                        alt="Logo Weberria - Retour à l'accueil" 
                         width={190} 
                         height={40}
                         unoptimized

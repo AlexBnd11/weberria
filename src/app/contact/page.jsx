@@ -3,6 +3,15 @@ import NextImage from "next/image";
 import Animation from "./components/Animation";
 import ContactFormClient from "./ContactFormClient";
 
+export const metadata = {
+  title: "Contact - Agence Web Weberria La Rochelle | Devis Gratuit",
+  description: "Weberria, agence web à La Rochelle. Devis gratuit pour votre projet web, site vitrine, e-commerce ou stratégie digitale. Réponse sous 24h.",
+  openGraph: {
+    title: "Contact - Agence Web Weberria La Rochelle | Devis Gratuit",
+    description: "Weberria, agence web à La Rochelle. Devis gratuit pour votre projet web.",
+  },
+};
+
 export default function Contact() {
     return (
         <Animation className="w-full h-full max-h-[75vh] flex justify-center items-center
@@ -35,7 +44,7 @@ export default function Contact() {
                         <div className="absolute bottom-10 left-0
                         max-md:relative max-md:mt-10 flex flex-col items-center
                         ">
-                            <NextImage src="/linkedin_logo.svg" alt="LinkedIn" width={32} height={32} unoptimized />
+                            <NextImage src="/linkedin_logo.svg" alt="Profil LinkedIn Weberria - Suivez-nous sur LinkedIn" width={32} height={32} unoptimized />
                         </div>
                     </div>
                 </div>

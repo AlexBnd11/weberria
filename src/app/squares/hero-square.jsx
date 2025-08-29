@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroSquare({ className = "" }) {
   return (
     <div className={`
@@ -10,9 +12,9 @@ export default function HeroSquare({ className = "" }) {
       max-lg:w-full max-lg:text-sm
       max-md:text-sm max-md:pb-6 max-md:pt-2
       ">Nous vous accompagnons pour tous vos projets web et digitaux. Renforcez votre présence en ligne.</p>
-      <a href="/contact" className="hero-button">
+      <Link href="/contact" className="hero-button">
         Contactez-nous
-      </a>
+      </Link>
     </div>
   );
 }

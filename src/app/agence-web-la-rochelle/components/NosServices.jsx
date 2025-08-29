@@ -1,5 +1,6 @@
 import NextImage from "next/image";
 import { gabarito } from "@/app/fonts";
+import Link from "next/link";
 
 export default function NosServices() {
     return (
@@ -55,9 +56,9 @@ export default function NosServices() {
             </div>
           </div>
         </div>
-        <a href="/contact" className="text-white text-center w-full bg-[var(--cta)] rounded-2xl p-3 hover:translate-y-[-3px] transition-all duration-250">
+        <Link href="/contact" className="text-white text-center w-full bg-[var(--cta)] rounded-2xl p-3 hover:translate-y-[-3px] transition-all duration-250">
             Nous contacter
-        </a>
+        </Link>
       </section>
     )
 }

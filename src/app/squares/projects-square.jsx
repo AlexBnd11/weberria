@@ -40,9 +40,9 @@ export default function ProjectsSquare({ className = "" }) {
         </div>
       </div>
 
-      <a href="/portfolio" className="bg-transparent border-2 border-white text-white px-5 py-2 text-center rounded-[22px] w-fit hover:bg-[var(--white-bg)] hover:text-[var(--text-primary)] hover:font-semibold transition-all duration-250
+      <Link href="/portfolio" className="bg-transparent border-2 border-white text-white px-5 py-2 text-center rounded-[22px] w-fit hover:bg-[var(--white-bg)] hover:text-[var(--text-primary)] hover:font-semibold transition-all duration-250
       max-xl:text-sm
-      ">Découvrez tous nos projets</a>
+      ">Découvrez tous nos projets</Link>
 
 
     </div>
